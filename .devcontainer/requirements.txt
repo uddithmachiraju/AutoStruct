@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pydantic
+jsonschema
+tqdm
+pytest
+python-dotenv

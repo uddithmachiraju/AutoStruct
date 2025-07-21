@@ -18,7 +18,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "poetry lock && poetry install --no-root",
+	"postCreateCommand": "pip install -r .devcontainer/requirements.txt --break-system-packages",
 
 	// Configure tool-specific properties.
 	"customizations": {
@@ -27,7 +27,12 @@
 				"GitHub.copilot",
                 "ms-vscode.makefile-tools",
 				"tamasfe.even-better-toml"
-			]
+			],
+			"settings": {
+				"terminal.integrated.env.linux": {
+					"PYTHONPATH": "${workspaceFolder}"
+				},
+			}
 		}
 	},
 
