@@ -24,7 +24,7 @@ In real business (B2B) workflows, companies often receive:
 This project is already optimized for developement using VS Code Dev Containers providing isolated environment. 
 
 1. **Clone the Repo**
-    - Get the project locally using `git clone <repo_url>`.
+    - Get the project locally using `git clone https://github.com/uddithmachiraju/AutoStruct.git`.
 2. **Docker**
     - Ensure Docker is installed and running before proceeding.
 3. **Build the contaier** (ctrl + shift + p)
@@ -61,3 +61,5 @@ This project is already optimized for developement using VS Code Dev Containers 
 
 ## API Request Flow
 <img src="assets/API Call Sequences.png" alt="Architecture Diagram" style="width:100%; max-width:900px; border:1px solid #ddd; border-radius:8px;" />
+
+**Built by M. Sanjay Uddith Raju** 
