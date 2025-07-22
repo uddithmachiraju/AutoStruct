@@ -20,8 +20,8 @@ class FilePreprocessor:
             return self.read_pdf(file_path)
         elif ext in ['.docx', '.doc'] and self.docx:
             return self.read_docx(file_path)
-        elif ext == '.txt':
-            return self.read_txt(file_path) 
+        elif ext in ['.txt', '.md']:
+            return self.read_txt(file_path)
         else:
             raise ValueError(f"Unsupported file type: {ext}")
         
