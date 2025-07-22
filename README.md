@@ -18,7 +18,9 @@ In real business (B2B) workflows, companies often receive:
 - **Scalable Architecture:** Modular design for easy extension and maintenance
 
 ## FlowChart
-<img src="assets/flowchart_new.jpg" alt="Architecture Diagram" style="width:35%; max-width:900px; border:1px solid #ddd; border-radius:8px;" />
+<div align="center">
+  <img src="assets/flowchart_new.jpg" alt="Architecture Diagram" style="width:35%; max-width:900px; border:1px solid #ddd; border-radius:8px;" />
+</div>
 
 ## Setup
 This project is already optimized for developement using VS Code Dev Containers providing isolated environment. 
