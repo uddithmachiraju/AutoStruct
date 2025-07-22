@@ -5,3 +5,7 @@ jsonschema
 tqdm
 pytest
 python-dotenv
+pdfplumber 
+python-docx
+python-multipart
+google-generativeai
